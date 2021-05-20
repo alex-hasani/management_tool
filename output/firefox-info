@@ -1,0 +1,81 @@
+Package: firefox
+Architecture: amd64
+Version: 80.0+build2-0ubuntu0.16.04.1
+Priority: optional
+Section: web
+Origin: Ubuntu
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 219066
+Provides: gnome-www-browser, iceweasel, www-browser
+Depends: lsb-release, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.18), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.11.94), libfreetype6 (>= 2.3.5), libgcc1 (>= 1:4.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.4), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxrender1, libxt6
+Recommends: xul-ext-ubufox, libcanberra0, libdbusmenu-glib4, libdbusmenu-gtk3-4
+Suggests: fonts-lyx
+Replaces: kubuntu-firefox-installer
+Filename: pool/main/f/firefox/firefox_80.0+build2-0ubuntu0.16.04.1_amd64.deb
+Size: 56142614
+MD5sum: 88d594222537640455a4b6b3280f12f5
+SHA1: 0d3b6a1d16cf57ae55b345ac541183f999753a9c
+SHA256: e16c55e72da103858afa9e2a85c5b1e9508cf6aea075f870203699428a531f2f
+Description-en: Safe and easy web browser from Mozilla
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+Description-md5: 46b619f510631c4693dc09c1a3778a55
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-full, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+Xul-Appid: {ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+Supported: 5y
+
+Package: firefox
+Status: install ok installed
+Priority: optional
+Section: web
+Installed-Size: 178991
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Architecture: amd64
+Version: 65.0.1+build2-0ubuntu0.16.04.1
+Replaces: kubuntu-firefox-installer
+Provides: gnome-www-browser, iceweasel, www-browser
+Depends: lsb-release, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.18), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.11.94), libfreetype6 (>= 2.3.5), libgcc1 (>= 1:4.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.4), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.8), libstdc++6 (>= 4.6), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrender1, libxt6
+Recommends: xul-ext-ubufox, libcanberra0, libdbusmenu-glib4, libdbusmenu-gtk3-4
+Suggests: fonts-lyx
+Conffiles:
+ /etc/apparmor.d/usr.bin.firefox 2c5033f33fe1c0e5b9f27ecbbb6ff74f
+ /etc/apport/blacklist.d/firefox ee63264f847e671832d42255912ce144
+ /etc/apport/native-origins.d/firefox 7c26b75c7c2b715c89cc6d85338252a4
+ /etc/firefox/syspref.js 09e457e65435a1a043521f2bd19cd2a1
+Description-en: Safe and easy web browser from Mozilla
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+Description-md5: 46b619f510631c4693dc09c1a3778a55
+Xul-Appid: {ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+
+Package: firefox
+Priority: optional
+Section: web
+Installed-Size: 104729
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Architecture: amd64
+Version: 45.0.2+build1-0ubuntu1
+Replaces: kubuntu-firefox-installer
+Provides: gnome-www-browser, iceweasel, www-browser
+Depends: lsb-release, libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.11.94), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.8), libstdc++6 (>= 5.2), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrender1, libxt6
+Recommends: xul-ext-ubufox, libcanberra0, libdbusmenu-glib4, libdbusmenu-gtk4
+Suggests: fonts-lyx
+Filename: pool/main/f/firefox/firefox_45.0.2+build1-0ubuntu1_amd64.deb
+Size: 43192748
+MD5sum: a516795ade0d50feb173bebcec717991
+SHA1: aed6c1505f911d4155bf39ab562e2e2cce89b8e9
+SHA256: 984222f306b8bc89da0354fa74ecf6e9df0c9f131c090931fe879517003730f4
+Description-en: Safe and easy web browser from Mozilla
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+Description-md5: 46b619f510631c4693dc09c1a3778a55
+Xul-Appid: {ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-full, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+

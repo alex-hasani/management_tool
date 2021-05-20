@@ -1,0 +1,14 @@
+/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/resource0_wc:256M
+/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/resource0:256M
+/sys/devices/pci0000:00/0000:00:02.0/resource2_wc:256M
+/sys/devices/pci0000:00/0000:00:02.0/resource2:256M
+/proc/kcore:128T
+/home/faradars/Downloads/atom-amd64.deb:119M
+/home/faradars/Videos/session3-2020-08-21_05.32.57.mp4.7z:139M
+/home/faradars/Videos/session3-2020-08-21_05.32.57.mp4:157M
+/usr/share/atom/atom:115M
+/usr/share/atom/resources/app.asar:225M
+/usr/lib/thunderbird/libxul.so:104M
+/usr/lib/chromium-browser/chromium-browser:166M
+/usr/lib/firefox/libxul.so:110M
+/usr/lib/x86_64-linux-gnu/libOxideQtCore.so.0:99M
